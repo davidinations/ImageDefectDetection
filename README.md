@@ -4,6 +4,10 @@ A simple **Streamlit** web app that runs **YOLO (Ultralytics)** object detection
 on user-uploaded images. Supports multiple models, adjustable confidence/IoU,
 and works locally or on Streamlit Community Cloud.
 
+## _Demo App_
+
+[davidinations-yolo.streamlit.app](https://davidinations-yolo.streamlit.app/)
+
 ## Features
 
 - **Model selection** in the sidebar:
