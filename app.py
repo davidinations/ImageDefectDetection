@@ -221,9 +221,13 @@ def main():
             st.divider()
             st.header("Sample Images")
             st.caption(
-                f"Tombol dibawah akan memuat gambar contoh yang sesuai dengan model yang dipilih."
-                "(mis. `sample1.pt` → `sample1.png` / `.jpg`). "
-                "Tombol aktif hanya untuk model yang sudah diset default dan jika gambar contoh ada di folder `test_images/`"
+                "Tombol dibawah akan memuat gambar contoh yang sesuai dengan model yang dipilih."
+            )
+            st.caption(
+                f"(mis. `sample1.pt` → `sample1.png` / `.jpg`)."
+            )
+            st.caption(
+                "Tombol hanya aktif jika model diset default dan gambar contoh ditemukan di folder `test_images/`."
             )
 
             sample1_path, sample1_file = find_test_image("sample1.pt")
